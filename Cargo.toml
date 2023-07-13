@@ -1,0 +1,10 @@
+[package]
+name = "quinntest"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Pinning these versions to show-case an incompatibility issue that can result
+# automatically chosen versions (via cargo's rules)
+quinn = "=0.9.3"
+rustls = "=0.21.2"
